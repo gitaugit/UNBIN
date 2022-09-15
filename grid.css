@@ -46,3 +46,24 @@
 .col12 { 
  width: 940px; 
 } 
+.container { 
+ background: #555; 
+ margin: 0; 
+ padding: 0; 
+ width: 960px; 
+} 
+.container:before,
+.container:after,
+.row:before,
+.row:after { 
+ content:""; 
+ display:table; 
+} 
+.container:after,
+.row:after { 
+ clear:both; 
+} 
+.row { 
+ clear: both; 
+ margin: 10px 0 10px 0; 
+}

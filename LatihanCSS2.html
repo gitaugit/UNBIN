@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Layout Dasar Dokumen Web</title>
+ <style type="text/css">
+ body { 
+ width: 960px; 
+ } 
+ header, nav, aside, section, footer { 
+ background: #14BCE6; 
+ border: 1px solid white; 
+ color: white; 
+ font-size: 2em; 
+ font-variant: small-caps; 
+ text-align: center; 
+ } 
+ header, nav, footer { 
+ width: 100%; 
+ } 
+ header, footer { 
+ height: 100px; 
+ } 
+ nav { 
+ height: 50px; 
+ } 
+ aside { 
+ float: left; 
+ height: 250px; 
+ width: 29.5%; 
+ } 
+ section#content { 
+ float: right; 
+ height: 250px; 
+ width: 70%; 
+ } 
+ footer { 
+ clear: both; 
+ } 
+ </style>
+ </head>
+<body>
+ <header>Header</header>
+ <nav>Navigation</nav>
+ <aside>Sidebar</aside> <section id="content">Content</section>
+ <footer>Footer</footer>
+ </body>
+</html>

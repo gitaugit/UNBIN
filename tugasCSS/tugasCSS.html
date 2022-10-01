@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Layout Dasar Dokumen Web</title>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <style type="text/css">
+ body {
+ width: 960px;
+ }
+ header, nav, aside, section, footer {
+ background: #14BCE6;
+ border: 1px solid white;
+ color: white;
+ font-size: 2em;
+ font-variant: small-caps;
+ text-align: center;
+ }
+ header, nav, footer {
+ width: 100%;
+ }
+ header, footer {
+ height: 100px;
+ }
+ nav {
+ height: 50px;
+ }
+ aside {
+ float: right;
+ height: 250px;
+ width: 29.5%;
+ }
+ section#content {
+ float: left;
+ height: 250px;
+ width: 70%;
+ font-size:large;
+ }
+ footer {
+ clear: both;
+ font-size: small;
+ }
+ </style>
+ </head>
+<body>
+ <header><img src="gambar/logoinfomedia.jpeg" class="w3-square" style="height:100px;width:100%" alt="Avatar"></header>
+ <nav><div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>BERANDA</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-globe"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-user"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
+      <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>     
+      </div>
+    </div></nav>
+ <aside><div class="w3-card w3-round w3-theme-blue-grey w3-Lrge">
+    <div class="w3-container">
+      <p>UPDATE</p>
+      <p>
+        <span class="w3-tag w3-small w3-theme-d2">news</span>
+        <span class="w3-tag w3-small w3-theme-d1">group</span>
+        <span class="w3-tag w3-small w3-theme-l2">social media</span>
+        <span class="w3-tag w3-small w3-theme-l5">Photos</span>
+      </p>
+    </div>
+  </div></aside> 
+ <section id="content" style="height:250px;width:70%">PT Infomedia Nusantara merupakan perusahaan penyedia jasa layanan
+    informasi pertama di Indonesia. PT Infomedia Nusantara ini memulai awal
+    perjalanannya pada tahun 1975. PT Infomedia Nusantara telah menerbitkan Buku
+    Petunjuk Telepon Telkom Yellow Pages di bawah sub divisi Elnusa GTDI dari
+    anak perusahaan Pertamina. Perkembangan selanjutnya tercatat bahwa PT
+    Infomedia Nusantara ini semula bernama PT Elnusa Yellow Pages yang berdiri
+    pada tanggal 20 Juni 1984. Kemudian pada tahun 1995 berubah nama menjadi PT
+    Infomedia Nusantara pada saat PT Telkom Tbk menanamkan investasi. </section> 
+    <footer class="w3-container w3-teal w3-center w3-margin-top" style="height:100px;width:100%"><div class="w3-card w3-round w3-theme-blue-grey w3-Lrge">
+        <div class="w3-container">
+        Find me on social media 
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p>Powered by Gita Tiara Ramadhani</p>
+    </div>
+</div></footer>
+ </body>
+</html>
